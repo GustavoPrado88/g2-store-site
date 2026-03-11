@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G2 Store | Moda Masculina Premium</title>
+    <meta
+      name="description"
+      content="G2 Store - Moda masculina premium com camisetas, polos, bermudas e cuecas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <p>🚚 Entregamos na cidade</p>
+        <p>💳 Pagamento facilitado</p>
+        <p>🔒 Compra segura</p>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container navbar__inner">
+        <a href="#inicio" class="brand">
+          <span class="brand__mark">G2</span>
+          <span class="brand__text">STORE</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="#inicio">Início</a>
+          <a href="#categorias">Categorias</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#promocoes">Promoções</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="eyebrow">MODA MASCULINA PREMIUM</span>
+            <h1>Estilo forte para o homem que quer presença.</h1>
+            <p>
+              Catálogo digital da G2 Store com peças de giro rápido, visual premium
+              e preços prontos para vender no Instagram, WhatsApp e atendimento local.
+            </p>
+            <div class="hero__actions">
+              <a href="#produtos" class="btn btn--primary">Ver produtos</a>
+              <a href="#promocoes" class="btn btn--ghost">Promoções</a>
+            </div>
+            <ul class="hero__highlights">
+              <li>✔ Camisetas premium</li>
+              <li>✔ Modelagens modernas</li>
+              <li>✔ Entrega local</li>
+            </ul>
+          </div>
+          <div class="hero__visual">
+            <div class="hero-card hero-card--main">
+              <span class="tag">DESTAQUE</span>
+              <h3>Combo Camisetas</h3>
+              <p>Leve 2 por <strong>R$ 89,90</strong></p>
+            </div>
+            <div class="hero-card hero-card--small">
+              <p>Oversized Egípcia</p>
+              <strong>R$ 89,90</strong>
+            </div>
+            <div class="hero-card hero-card--small hero-card--accent">
+              <p>Peruana Pima</p>
+              <strong>R$ 79,90</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container benefits__grid">
+          <article class="benefit">
+            <span>🚚</span>
+            <div>
+              <h3>Receba em casa</h3>
+              <p>Entregas locais com rapidez.</p>
+            </div>
+          </article>
+          <article class="benefit">
+            <span>💳</span>
+            <div>
+              <h3>Pague como preferir</h3>
+              <p>Pix, cartão e dinheiro.</p>
+            </div>
+          </article>
+          <article class="benefit">
+            <span>🛍️</span>
+            <div>
+              <h3>Qualidade premium</h3>
+              <p>Peças selecionadas para giro e lucro.</p>
+            </div>
+          </article>
+          <article class="benefit">
+            <span>🔒</span>
+            <div>
+              <h3>Atendimento seguro</h3>
+              <p>Venda simples pelo WhatsApp ou Instagram.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="categorias">
+        <div class="container">
+          <div class="section-heading">
+            <span>CATEGORIAS</span>
+            <h2>Compre por tipo de produto</h2>
+          </div>
+          <div class="categories" id="categories"></div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="produtos">
+        <div class="container">
+          <div class="section-heading section-heading--row">
+            <div>
+              <span>CATÁLOGO</span>
+              <h2>Produtos disponíveis</h2>
+            </div>
+            <div class="filters" id="filters"></div>
+          </div>
+          <div class="products-grid" id="productsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="promocoes">
+        <div class="container">
+          <div class="promo-banner">
+            <div>
+              <span class="eyebrow">PROMOÇÃO DE INAUGURAÇÃO</span>
+              <h2>Monte o kit do fim de semana</h2>
+              <p>
+                Oferta pensada para gerar giro rápido sem perder margem.
+              </p>
+            </div>
+            <div class="promo-price">
+              <small>2 camisetas fio 30</small>
+              <strong>R$ 89,90</strong>
+              <span>Confira os modelos disponíveis nos destaques</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="contato">
+        <div class="container contact">
+          <div>
+            <span class="eyebrow">CONTATO</span>
+            <h2>Fale com a G2 Store</h2>
+            <p>
+              Rua Joaquim Eugênio de Mesquita, 68<br />
+              Moda Masculina Premium<br />
+              Atendimento por Instagram e WhatsApp.
+            </p>
+            <div class="contact__actions">
+              <a
+                class="btn btn--primary"
+                href="https://www.instagram.com/g2storemg?igsh=MWM3a3V1aWZhaGNiNA=="
+                target="_blank"
+                rel="noreferrer"
+                >Instagram</a
+              >
+              <a class="btn btn--ghost" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer"
+                >WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="contact-card">
+            <h3>Informações rápidas</h3>
+            <ul>
+              <li><strong>Entrega:</strong> disponível</li>
+              <li><strong>Tamanhos:</strong> M, G e GG</li>
+              <li><strong>Pagamento:</strong> Pix, cartão, dinheiro</li>
+              <li><strong>Instagram:</strong> @g2storemg</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> G2 Store — Moda Masculina Premium</p>
+        <p>Projeto pronto para GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
